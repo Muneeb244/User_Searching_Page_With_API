@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Mulish:ital,wght@1,200&family=Open+Sans:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+}
+
+.container{
+    width: 25%;
+    height: 500px;
+    box-shadow: 3px 8px 10px #888888;
+    background-color: white;
+    max-height: 600px;
+    
+}
+
+.header{
+    background-color: darkblue;
+    color: #fff;
+    padding: 20px;
+}
+
+.header p{
+    font-size: small;
+}
+
+
+.header #text{
+    padding: 3px;
+    margin-top: 10px;
+    width: 100%;
+    height: 4vh;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.container{
+    overflow: hidden;
+}
+
+.container:hover{
+    overflow: auto;
+}
+
+
+.container ul li{
+    display: flex;
+    padding: 20px;
+    max-height: 200px;
+}
+
+.container ul li:not(:last-of-type){
+    border-bottom: 2px solid #eee;
+}
+
+/* .info ul li:nth-child(not-) */
+
+.container ul li img{
+    border-radius: 50%;
+    width: 60px;
+}
+
+.container ul li .user-info{
+    margin:  7px 15px;
+}
+
+.container ul .hide{
+    display: none;
+}
